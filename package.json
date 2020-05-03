@@ -1,0 +1,27 @@
+{
+  "name": "passport-login",
+  "version": "1.0.0",
+  "description": "Passport login boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "r4ng3l",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "colors": "^1.4.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
